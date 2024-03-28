@@ -1,0 +1,158 @@
+@charset "UTF-8";
+/* styles.css */
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+
+header {
+	background-color: #333;
+	color: white;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	width: 99%;
+	top: 0;
+}
+
+header img {
+	width: 50px;
+	height: auto;
+}
+
+header h1 {
+
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 80px;
+	/* Adjust as needed */
+}
+
+.form-box {
+	width: 400px;
+	padding: 20px;
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+	display: block;
+	margin-bottom: 8px;
+}
+
+input {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 16px;
+	box-sizing: border-box;
+}
+
+button {
+	width: 100%;
+	padding: 10px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.userDetails {
+	border: 1px solid #ccc;
+	padding: 15px;
+	margin-bottom: 20px;
+	margin-top: 50px;
+
+}
+
+.accountsList {
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.transactions {
+	border: 1px solid #ccc;
+	padding: 15px;
+
+	margin-bottom: 20px;
+}
+
+.AllBtn {
+	display: inline-block;
+	padding: 15px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+
+}
+
+.AllBtn:hover {
+	background-color: #0056b3;
+}
+
+.logout {
+	position: absolute;
+	top: 72px;
+	right: 10px;
+	padding: 10px 20px;
+	font-size: 12px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+}
+
+.logout:hover {
+	background-color: #0056b3;
+}
+
+.Bank-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+.Bank-table th,
+.Bank-table td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: left;
+}
+
+.Bank-table th {
+	background-color: #f2f2f2;
+}
+
+.Bank-table tbody tr:hover {
+	background-color: #f5f5f5;
+}
+
+.Bank-table input[type="radio"] {
+	margin-right: 5px;
+}
+
+.error-message {
+	color: red;
+	margin-top: 10px;
+}
